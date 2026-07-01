@@ -113,6 +113,12 @@ P0 drift deeper (784-d more fragile: min recall → 0.92). Matched-budget tail w
 tail-only, scarce-budget pattern as SIFT but **~3–4× larger tail magnitude** → the mechanism is not
 SIFT-specific.
 
+## Scale confirmation — SIFT1M / 100k-live (single seed, fine-bursty)
+The pre-registered larger-scale config (100k live, 5× the headline index) confirms the effect. Deeper
+drift (P0 min 0.911). Matched-budget: **P2 > P1 on 4/4 avg and 4/4 min**; tail win **Δmin +0.0090
+(~1 consol), +0.0082 (~2 consol)** — same direction and comparable magnitude to the 20k CI'd result, so
+the mechanism persists at scale. (`results/summary_sift_SIFT1M100k.csv`.)
+
 ## Stage 5/7 drafted
 Repo essentials written (`README.md`, `LICENSE`, `CITATION.cff`, `REPRODUCIBILITY.md`, `run.sh` one-command
 repro). Paper draft `paper/paper-draft.md` (full narrative, two-dataset results, honest limitations,
