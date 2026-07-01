@@ -1,0 +1,7 @@
+data/
+*.hdf5
+__pycache__/
+*.pyc
+*.log
+logs_*.txt
+results/figures/*.pdf

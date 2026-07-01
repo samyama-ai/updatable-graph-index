@@ -1,0 +1,6 @@
+dataset,f,policy,n_consol,total_wall_s,total_cleared,avg_recall,min_recall,final_recall
+sift,0.5,P0-none,0,0.0,0,0.9822,0.9622,0.9622
+sift,0.5,P1-fixed@33333,5,2.3706,89920,0.9962,0.9935,0.9966
+sift,0.5,P1-fixed@10000,20,10.6799,99870,0.9978,0.9968,0.9976
+sift,0.5,P2-signal@0.030,1,0.0895,79938,0.9861,0.9567,0.9925
+sift,0.5,P2-signal@0.080,0,0.0,0,0.9753,0.921,0.921

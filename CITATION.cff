@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+title: "When to Repair a Graph ANN Index: Navigability-Signal-Triggered Local Repair Protects Tail Recall Under Bursty Churn"
+message: "If you use this software or its findings, please cite it."
+authors:
+  - name: "Samyama"
+repository-code: "https://github.com/samyama-ai/updatable-graph-index"
+abstract: >-
+  A reproducible study and mechanism for maintaining graph ANN indexes (HNSW/Vamana) under insert/delete
+  churn. Triggering local edge repair on a measured navigability-degradation signal Pareto-dominates
+  fixed-cadence repair at matched budget, with the gain concentrated on worst-case (tail) recall at scarce
+  budget. Links to dbms_research catalog problem 28-vector-similarity-search/updatable-graph-index.
+keywords: [approximate nearest neighbor, vector database, HNSW, DiskANN, Vamana, index maintenance, churn, recall]
+license: Apache-2.0
