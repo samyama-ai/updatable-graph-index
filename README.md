@@ -9,6 +9,9 @@ claim.
 Daily-research problem #13 · catalog id [`28-vector-similarity-search/updatable-graph-index`](https://github.com/samyama-ai/dbms_research).
 This repo is a **reproducible baseline + a mechanism**, not a production system.
 
+**Preprint:** *When to Repair a Graph ANN Index: Navigability-Signal-Triggered Local Repair Protects
+Tail Recall Under Bursty Churn* — [arXiv:2607.00728](https://arxiv.org/abs/2607.00728) (cs.IR; cross-list cs.DB).
+
 ## Result (real SIFT-128, bursty churn, matched budget, 4 stream seeds)
 
 | repair budget (# consolidations) | mean-recall win (P2−P1) | **tail (min)-recall win (P2−P1)** |

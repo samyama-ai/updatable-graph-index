@@ -22,8 +22,8 @@ The honest result, on real SIFT-128 and Fashion-MNIST-784 under bursty churn, 4 
 - The cheap signal leads true recall at ρ≈0.95.
 
 It's a mechanism + a budget-matched protocol + an open one-command harness — not a new index, and not a
-mean-recall claim. Code, figures, and reproduction: [github.com/samyama-ai/updatable-graph-index]. Preprint
-inside.
+mean-recall claim. Code, figures, and reproduction: [github.com/samyama-ai/updatable-graph-index]. Preprint:
+arxiv.org/abs/2607.00728.
 
 We'd genuinely value pushback: is the matched-budget framing the right way to separate *when* from *how
 much*? And where would a navigability-triggered controller matter most in a deployed engine?

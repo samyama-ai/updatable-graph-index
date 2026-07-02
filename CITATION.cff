@@ -11,3 +11,18 @@ abstract: >-
   budget. Links to dbms_research catalog problem 28-vector-similarity-search/updatable-graph-index.
 keywords: [approximate nearest neighbor, vector database, HNSW, DiskANN, Vamana, index maintenance, churn, recall]
 license: Apache-2.0
+preferred-citation:
+  type: article
+  title: "When to Repair a Graph ANN Index: Navigability-Signal-Triggered Local Repair Protects Tail Recall Under Bursty Churn"
+  authors:
+    - family-names: "Mandarapu"
+      given-names: "Madhulatha"
+    - family-names: "Kunkunuru"
+      given-names: "Sandeep"
+  year: 2026
+  journal: "arXiv preprint"
+  identifiers:
+    - type: other
+      value: "arXiv:2607.00728"
+      description: "arXiv preprint identifier"
+  url: "https://arxiv.org/abs/2607.00728"
